@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="Halloween.css">
+    <title>Halloween Effect  </title>
+</head>
+<body>
+    <section>
+       
+      
+        <img src="\diwalibg2.jpg" id="diwalibg2" width=1520px height=1000px>
+        <img src="\diva.png"  id="diva">
+        <img src="\happydiwali_Text.png" id="happydiwali_Text" height="260px"> 
+        
+       
+         
+    </section>
+
+        <div class = "sec">
+        <div class = "content">
+            <h2>Happy Diwali 2021 </h2>
+
+            <p>kya bolu abb
+            </p>
+            <img src="ma-chudi.gif" alt="" style="width: 500px; height: 300px;">
+           </div>
+        </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+
+ <script>
+
+    gsap.to("#diva",{
+        scrollTrigger : {
+            scrub:0.5,
+        },
+        x : 300,
+        y : 500,
+    })
+
+    gsap.to("#happydiwali_Text",{
+        scrollTrigger : {
+            scrub:0.5,
+            
+        }, 
+        x : 1000,
+        // y : 1000,
+        
+    })
+
+</Script> 
+
+</body>
+</html> 
